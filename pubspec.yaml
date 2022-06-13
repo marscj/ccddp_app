@@ -8,6 +8,7 @@ environment:
 dependencies: 
   cupertino_icons: ^1.0.2
   get: 4.6.5
+  flutter_native_splash: 2.2.3+1
   flutter: 
     sdk: flutter
 
@@ -19,3 +20,16 @@ dev_dependencies:
 flutter: 
   uses-material-design: true
 
+  assets:
+    - assets/
+
+flutter_native_splash:
+  color: "#e1f5fe"
+  image: assets/logo_lockup_flutter_vertical.png 
+  color_dark: "#042a49"
+  # background_image_dark: "assets/dark-background.png"
+  image_dark: assets/logo_lockup_flutter_vertical_wht.png
+  # branding_dark: assets/dart_dark.png
+
+  android_12:
+  fullscreen: true
