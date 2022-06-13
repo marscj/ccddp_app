@@ -24,12 +24,9 @@ flutter:
     - assets/
 
 flutter_native_splash:
-  color: "#e1f5fe"
+  color: "#ffffff"
   image: assets/logo_lockup_flutter_vertical.png 
-  color_dark: "#042a49"
-  # background_image_dark: "assets/dark-background.png"
-  image_dark: assets/logo_lockup_flutter_vertical_wht.png
-  # branding_dark: assets/dart_dark.png
+  branding: assets/branding.png
 
   android_12:
   fullscreen: true
