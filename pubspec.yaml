@@ -25,13 +25,6 @@ flutter_icons:
   remove_alpha_ios: true
   image_path: 'assets/ic_launcher.png'
 
-flutter_native_splash: 
-  color: '#000000'
-  image: assets/images/splash/image.png
-  branding: assets/images/splash/branding.png
-  android_12: null
-  fullscreen: true
-
 flutter:  
   assets: 
     - assets/
