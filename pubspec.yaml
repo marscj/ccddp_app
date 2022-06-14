@@ -26,12 +26,12 @@ flutter_icons:
 
 flutter_native_splash: 
   color: '#ffffff'
-  image: 'assets/images/splash/image.png'
-  branding: 'assets/images/splash/branding.png'
+  image: assets/images/splash/image.png
+  branding: assets/images/splash/branding.png
   android_12: null
   fullscreen: true
 
-flutter: 
+flutter:  
   assets: 
     - assets/
   uses-material-design: true
