@@ -4,7 +4,8 @@ linter:
     unnecessary_overrides: false
     constant_identifier_names: false
     prefer_const_constructors: false
-    
+    avoid_print: false
+
 analyzer: 
   errors:
     todo: ignore
