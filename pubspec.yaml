@@ -20,13 +20,13 @@ dev_dependencies:
     sdk: flutter
 
 flutter_icons:
-  android: 'ic_launcher_1'
+  android: 'ic_launcher'
   ios: true
   remove_alpha_ios: true
   image_path: 'assets/images/background.png'
 
-flutter_native_splash: 
-  color: '#000000'
+# flutter_native_splash: 
+#   color: '#000000'
   # image: assets/images/splash/image.png
   # branding: assets/images/splash/branding.png
   # android_12: null
