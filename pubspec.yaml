@@ -9,6 +9,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: 4.6.5
   flutter_native_splash: 2.2.3+1
+  flutter_launcher_icons: 0.9.3
   flutter: 
     sdk: flutter
 
@@ -18,15 +19,14 @@ dev_dependencies:
     sdk: flutter
 
 flutter: 
+  assets: 
+    - assets/
   uses-material-design: true
 
-  assets:
-    - assets/
-
-flutter_native_splash:
-  color: "#ffffff"
-  image: assets/logo_lockup_flutter_vertical.png 
-  branding: assets/branding.png
-
-  android_12:
+flutter_native_splash: 
+  color: '#ffffff'
+  image: assets/images/splash/image.png
+  branding: assets/images/splash/branding.png
+  android_12: null
   fullscreen: true
+
